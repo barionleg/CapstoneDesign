@@ -1,15 +1,15 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: PHP5HTML
+ * User: Chaudhry Waqas
  * Date: 12/8/2015
  * Time: 2:42 PM
  */
 
-$servername = "sql306.epizy.com";
-$username = "epiz_32730965";
+$servername = "localhost";
+$username = "root";
 $password = "";
-$database = 'epiz_32730965_attendance';
+$database = 'attendance';
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
